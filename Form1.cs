@@ -108,7 +108,7 @@ namespace Laboratorio_7
         {
             listtemp = listData.OrderBy(a => a.Cuota).ToList();
             int ind = listData.Count - 1;
-            MessageBox.Show("El propietario con la mayor cuota de mantenimiento es: \n" + listData[ind].Nombre + " " + listData[ind].Apellido + "\n" + "Con un total de: Q." + listData[ind].Cuota.ToString());
+            MessageBox.Show("El propietario con la mayor cuota de mantenimiento es: \n" + listData[ind].Nombre + " " + listData[ind].Apellido + "\n" + "Con un total de: Q." + listData[ind].Cuota.ToString() +".00");
         }
     }
 }
